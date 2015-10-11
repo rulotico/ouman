@@ -10,4 +10,10 @@ router.get('/vozrecord', function(req, res, next) {
   res.render('voz', { title: 'Voz' });
 });
 
+router.get('/mensaje', function(req, res, next) {
+  res.render('mens', { title: 'Mens' });
+});
+
+
+
 module.exports = router;

@@ -1,8 +1,16 @@
 extends layout
 
 block content
-  p PAGINA DE 
-    a(id='voice_btn' style='cursor:pointer;') Voz
-    span(class='redPoint')
-    div(id='speech')
+  img(src="../images/clou.gif", alt="", class="clu")
+  .container
+    .col-md-2
+    .col-md-8(class="text-center")
+        a(id='voice_btn' )
+            img(src="../images/micro.gif", alt="", class="micro")
+            img(src="", alt="", class="microred")
+        span(class='redPoint')
+        div(id='speech')
+        
+    .col-md-2
+
 

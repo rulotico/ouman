@@ -1,10 +1,22 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  background: url(../images/fondo.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 a {
   color: #00B7FF;
+  cursor: pointer;
+}
+
+a:hover{
+opacity: .9;
 }
 
 .redPoint{
@@ -14,4 +26,50 @@ a {
 	background-color: red;
 	position: absolute;
 	visibility: hidden;
+}
+
+.gato{
+	height: 600px;
+}
+
+.clu{
+	position: absolute;
+    left: 0px;
+    width: 100%;
+    
+}
+
+.micro{
+	    height: 230px;
+	    margin-top: 130px;
+}
+
+#microred{
+	visibility: hidden;
+}
+
+.microred{
+	    z-index: 1;
+    position: absolute;
+    left: 31%;
+    top: 90px;
+    visibility: visible;
+    height: 282px;
+}
+
+.speech{
+	    padding-top: 18px;
+
+}
+
+.fly{
+	width: 760px;
+
+}
+
+.txt{
+	padding-left: 180px;
+    padding-right: 157px;
+    position: absolute;
+    top: 254px;
 }

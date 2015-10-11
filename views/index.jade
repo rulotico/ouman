@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  img(src="../images/clou.gif", alt="", class="clu")
+  .container
+    .col-md-2
+    .col-md-8(class="text-center")
+        img(src="../images/gato.gif", alt="", class="gato", LOOP=INFINITE)
+        a(href="/vozrecord" class="text-center")
+            img(src="../images/play.gif")
+    .col-md-2
