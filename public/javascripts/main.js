@@ -26,5 +26,3 @@ recognizer.onresult = function(event) {
 recognizer.start();
 
 });
-
-
